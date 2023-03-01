@@ -1,0 +1,23 @@
+.avatar {
+  &__username {
+    text-align: right;
+    color: #FF6060;
+  }
+  
+  &__pic {
+    background: #C4C4C4;
+    width: 32px;
+    height: 32px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    object-fit: cover;
+    border: 1px solid #FF6060;
+  }
+  @media screen and (min-width: 650px) {
+    &__pic {
+      width: 64px;
+      height: 64px;
+      border-radius: 50px;
+    }
+  }
+}
