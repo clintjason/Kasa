@@ -1,0 +1,51 @@
+.carrousel {
+  //height: 255px;
+  position:relative;
+  overflow: hidden;
+  width:100%;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 96, 96,0.2);
+
+  &__navlink {
+    padding: 3px;
+    background-color:transparent;
+    color:#FFF;
+    height:50px;
+    width: 50px;
+    position:absolute;
+    top: calc(50% - 20px);
+    z-index:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+
+
+    &:focus, &:hover {
+      cursor: pointer;
+      outline: none;
+      border-radius: 50%;
+      background-color: rgba(0,0,0,0.6);
+    }
+  }
+
+  &__pagination {
+    z-index: 2;
+    align-self: end;
+    color: white;
+  }
+
+  .next {
+    right: 5px;
+  }
+  .prev {
+    left: 5px;
+  }
+
+  @media screen and (min-width:650px) {
+   //height: 415px;
+  }
+}
