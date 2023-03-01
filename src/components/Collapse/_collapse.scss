@@ -1,0 +1,42 @@
+.collapse {
+  margin: 30px auto;
+  width: 100%;
+  &__heading {
+    background: #FF6060;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  &__desc {
+    background: #F7F7F7;
+    border-radius: 0px 0px 5px 5px;
+    padding: 20px;
+    color: #FF6060;
+    font-weight: 400;
+  }
+  &__list {
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  &__icons {
+    img {
+      cursor: pointer;
+      transition: all 500ms ease-in-out;
+    }
+    &--open {
+      transform: rotate(360deg);
+    }
+    &--close {
+      transform: rotate(0deg);
+    }
+  }
+
+  @media screen and (min-width: 700px) {
+    width: 45%;
+    min-width: 300px;
+  }
+}
