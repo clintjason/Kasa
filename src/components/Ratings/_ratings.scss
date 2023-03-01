@@ -1,0 +1,20 @@
+.star {
+  width: 20px;
+  height: 20px;
+}
+.filled {
+  color: #FF6060;
+}
+.empty {
+  color: #E3E3E3;
+}
+.rating {
+  display: block;
+}
+
+@media screen and (min-width: 450px) {
+  .star {
+    width: 30px;
+    height: 30px;
+  }
+}
