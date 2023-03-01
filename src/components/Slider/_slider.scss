@@ -5,7 +5,8 @@
   right: 0;
   bottom: 0;
   background: linear-gradient(180deg, rgba(255, 96, 96, 0) 0%, rgba(255, 96, 96, 0.5) 100%);
-  animation: fade-up 500ms ease-in-out both;
+  background: -webkit-linear-gradient(180deg, rgba(255, 96, 96, 0) 0%, rgba(255, 96, 96, 0.5) 100%);
+  animation: leftInAnimation 500ms ease-in-out both;
 
   &__img {
     object-fit: cover;
