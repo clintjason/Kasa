@@ -1,5 +1,5 @@
 import Header_logo from '../../assets/img/kasa_header_logo.svg';
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import './_Header.scss';
 
 const Header = () => {
