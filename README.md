@@ -1,8 +1,19 @@
-# Getting Started with Create React App
+# Kasa: Housing Marketplace
+Transformed a mockup into a responsive single-page application using ReactJs and React-Router.
+
+Project Website: https://kasa-drab.vercel.app/
+
+A Mock-Up Preview
+![The Phone mockup](https://github.com/clintjason/kasa/blob/main/assets/img/kasa.png?raw=true))
+
+The Software Specification Document:
+![The Requirement Document](https://github.com/clintjason/kasa/blob/main/UI-Design-Kasa-FR.pdf?raw=true)
+
+## How to run the Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
