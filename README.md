@@ -4,7 +4,7 @@ Transformed a mockup into a responsive single-page application using ReactJs and
 Project Website: https://kasa-drab.vercel.app/
 
 A Mock-Up Preview
-![The Phone mockup](https://github.com/clintjason/kasa/blob/main/assets/img/kasa.png?raw=true))
+![The Mockup Preview](https://raw.githubusercontent.com/clintjason/kasa/main/src/assets/img/kasa.png))
 
 The Software Specification Document:
 ![The Requirement Document](https://github.com/clintjason/kasa/blob/main/UI-Design-Kasa-FR.pdf?raw=true)
